@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Jenkins + Docker + GitHub working!");
+  res.send("updated shi!");
 });
 
 app.listen(3000, () => {
